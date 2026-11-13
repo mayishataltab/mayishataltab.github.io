@@ -1,32 +1,53 @@
-# Mayishat Altab Mridu — Personal Website
+# Mayishat Altab Mridu — Personal Academic Website
 
-A static academic portfolio (HTML/CSS/JS, no build step).
+🌐 **Live site:** [mayishataltab.github.io](https://mayishataltab.github.io/)
 
-## Files
-- `index.html` — page content (includes JSON-LD data for search engines)
-- `styles.css` — styles (light/dark themes, responsive, print layout)
-- `script.js` — theme toggle, mobile menu, scroll reveal, copy citation / BibTeX
-- `404.html` — custom "page not found" page (GitHub Pages uses it automatically)
-- `robots.txt`, `sitemap.xml` — help search engines index the site
-- `assets/Mayishat_Altab_Mridu_CV.pdf` — downloadable CV
-- `assets/profile.jpg` — profile photo (400×400); replace the file to change it
-- `assets/og-image.jpg` — 1200×630 preview image shown when the link is shared
+Personal website of **Mayishat Altab Mridu**, a Computer Science & Engineering graduate from
+Daffodil International University working on machine learning for medical image analysis,
+computational biology and audio classification.
 
-## Deploy on GitHub Pages
-1. Push this folder's contents to a repository named `mayishataltab.github.io`.
-2. Repository → Settings → Pages → Source: `main` branch, `/ (root)`.
+## What's on the site
 
-## After deploying: check the site address
-Every file below assumes the site lives at `https://mayishataltab.github.io/`.
-If you use a different repo name or a custom domain, replace that address in:
+| Section | Contents |
+|---|---|
+| **About** | Research statement and six research interests |
+| **Latest News** | Recent publication and manuscripts under review |
+| **Research Experience** | Four projects with key results, methods and links to code |
+| **Publications** | Journal article and manuscripts in citation format, with DOI, "Copy citation" and BibTeX |
+| **Education** | B.Sc. in CSE, HSC and SSC |
+| **Technical Skills** | Research areas, methods, libraries, languages and tools |
+| **Contact** | Email, GitHub and ORCID |
 
-- `index.html` — `<link rel="canonical">` and the JSON-LD block (`url`, `image`)
-- `index.html` — `og:image` and `twitter:image`: change `assets/og-image.jpg` to the full URL,
-  e.g. `https://mayishataltab.github.io/assets/og-image.jpg` (LinkedIn needs an absolute URL)
-- `sitemap.xml` — `<loc>`
-- `robots.txt` — `Sitemap:` line
+## Research projects featured
 
-Note: the 404 page's links point to `/`, which is correct for a `username.github.io` site or a custom domain.
+| Project | Topic | Status | Code |
+|---|---|---|---|
+| **T2D Gene Ranking** | ML ranking of Type 2 diabetes-associated pancreatic β-cell genes | Under review, Springer | [T2D-Gene](https://github.com/mayishataltab/T2D-Gene) |
+| **GlaucomaDetect** | Explainable glaucoma detection from retinal fundus images (DenseNet121, Grad-CAM) | Under review, Springer | [Glaucoma-Detection](https://github.com/mayishataltab/Glaucoma-Detection) |
+| **UrbanSoundAI** | Environmental sound classification with ANN and SVM | Published, INDJCST 2026 | [Urbansound](https://github.com/mayishataltab/Urbansound) |
+| **Air Quality Forecasting with TinyML** | Low-cost indoor air-quality monitoring on ESP32 | Under review, Springer | — |
 
-## Get indexed by Google
-After deploying, add the site in Google Search Console and submit `sitemap.xml`.
+## Features
+
+- **Responsive design:** works on phones, tablets and desktops
+- **Light and dark mode:** follows the device setting, with a toggle button
+- **Downloadable CV**
+- **One-click citations:** copy a formatted citation or BibTeX entry
+- **Print-friendly:** prints or saves as a clean PDF
+- **Search-engine ready:** structured data, sitemap and social-media preview image
+- **Custom 404 page** for broken links
+- **Fast and lightweight:** plain HTML, CSS and JavaScript, no frameworks
+
+## Built with
+
+HTML5 · CSS3 · JavaScript · GitHub Pages
+
+## Links
+
+- **Email:** [altabmayishat@gmail.com](mailto:altabmayishat@gmail.com)
+- **GitHub:** [github.com/mayishataltab](https://github.com/mayishataltab)
+- **ORCID:** [0009-0006-5069-3097](https://orcid.org/0009-0006-5069-3097)
+
+---
+
+© 2026 Mayishat Altab Mridu
