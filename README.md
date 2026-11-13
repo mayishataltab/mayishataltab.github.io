@@ -18,14 +18,14 @@ computational biology and audio classification.
 | **Technical Skills** | Research areas, methods, libraries, languages and tools |
 | **Contact** | Email, GitHub and ORCID |
 
-## Research projects featured
+## Research featured
 
-| Project | Topic | Status | Code |
+| Title | Area | Status | Code |
 |---|---|---|---|
-| **T2D Gene Ranking** | ML ranking of Type 2 diabetes-associated pancreatic β-cell genes | Under review, Springer | [T2D-Gene](https://github.com/mayishataltab/T2D-Gene) |
-| **GlaucomaDetect** | Explainable glaucoma detection from retinal fundus images (DenseNet121, Grad-CAM) | Under review, Springer | [Glaucoma-Detection](https://github.com/mayishataltab/Glaucoma-Detection) |
-| **UrbanSoundAI** | Environmental sound classification with ANN and SVM | Published, INDJCST 2026 | [Urbansound](https://github.com/mayishataltab/Urbansound) |
-| **Air Quality Forecasting with TinyML** | Low-cost indoor air-quality monitoring on ESP32 | Under review, Springer | — |
+| **An Exploratory Machine-Learning Ranking of Type 2 Diabetes-Associated Pancreatic β-Cell Genes Using Heterogeneous Gene-Level Evidence** | Computational biology | Under review, Springer | [T2D-Gene](https://github.com/mayishataltab/T2D-Gene) |
+| **Comparative Evaluation of Machine Learning and Transfer-Learning-Based Deep Learning Models for Explainable Glaucoma Detection from Retinal Fundus Images** | Medical imaging | Under review, Springer | [Glaucoma-Detection](https://github.com/mayishataltab/Glaucoma-Detection) |
+| **Comparative Study of Optimized ANN and SVM Models for Environmental Sound Classification with Practical Web-Based Deployment** | Audio classification | Published, INDJCST 2026 | [Urbansound](https://github.com/mayishataltab/Urbansound) |
+| **Low-Cost Indoor Air Quality Monitoring and Short-Term Forecasting on ESP32 Using a Humidity-Compensated MOS Sensor and TinyML** | TinyML · sensing | Under review, Springer | — |
 
 ## Features
 
